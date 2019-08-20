@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MiddlewareMain {
+public class MiddlewareApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MiddlewareMain.class, args);
+		SpringApplication.run(MiddlewareApplication.class, args);
 	}
 }
