@@ -8,11 +8,29 @@
 - [discovery-service](discovery-service) - **Spring Eureka**, provide console represent application status.
   - http://localhost:8888/
 - [config-service](config-service) - **Spring Cloud Config**, make you can configure via git repository.
-  - http://localhost:9080/middle/default
+  - http://localhost:9080/middleware-service/prod
 - [middleware-service](middleware-service) - **Spring Boot Application**, provided rest api.
   - http://localhost:8080/
 
 
 
-Configuration Sample Repository
-https://github.com/lordgift/test-config.git
+### Config Service
+
+Enable actuator to refresh config from repository.
+
+pom.xml
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
+
+application.properties
+```properties
+management.endpoints.web.exposure.include=*
+```
+POST http://localhost:8080/actuator/refresh
+
+Config repository : https://github.com/lordgift/test-config.git
+
