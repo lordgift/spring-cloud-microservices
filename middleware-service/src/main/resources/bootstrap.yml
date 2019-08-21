@@ -15,6 +15,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
 
+#enable actuator accessible
 management:
   endpoints:
     web:

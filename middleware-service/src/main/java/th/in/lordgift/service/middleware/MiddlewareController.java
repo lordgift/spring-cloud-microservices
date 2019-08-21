@@ -10,10 +10,22 @@ public class MiddlewareController {
     @Value("${message}")
     private String message;
 
+//    @Autowired
+//    DiscoveryClient discoveryClient;
+
     @GetMapping("/")
     public MessageObject getHelloWorld() {
-        MessageObject hello = new MessageObject();
-        hello.setMessage("Hello, World!" + message);
-        return hello;
+
+//        List<ServiceInstance> instances = discoveryClient.getInstances("app-service");
+//        instances.get(0).getUri()
+
+        return new MessageObject("Hello, World!");
     }
+
+    @GetMapping("/msg")
+    public String getMessage() {
+        return message;
+    }
+
+
 }
