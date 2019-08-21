@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: middleware-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:9080
 
 eureka:
   client:
