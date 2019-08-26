@@ -19,6 +19,7 @@
 ## Spring Cloud Actuator
 
 Use for monitor & interact via REST endpoint. 
+
 For more information please read more. https://www.javatpoint.com/spring-boot-actuator
 
 To enable actuator to refresh config from repository.
