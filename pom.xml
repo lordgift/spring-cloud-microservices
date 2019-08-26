@@ -17,9 +17,11 @@
     <modules>
         <module>discovery-service</module>
         <module>config-service</module>
-        <module>middleware-service</module>
         <module>gateway-service</module>
+        <module>middleware-service</module>
         <module>auth-service</module>
+
+
     </modules>
 
 </project>
