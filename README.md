@@ -1,7 +1,7 @@
 # Spring Cloud Microservices
 ![](https://img.shields.io/badge/Java-8-orange.svg?logo=java)
-![](https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR2-green.svg)
-![](https://img.shields.io/badge/Maven-4.0.0-CA1E32.svg)
+![](https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR3-green.svg)
+![](https://img.shields.io/badge/Gradle-5.2.1-002A32.svg)
 
 
 ## Project Modules
