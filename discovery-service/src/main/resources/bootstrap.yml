@@ -7,3 +7,6 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+
+    healthcheck:
+      enabled: true
