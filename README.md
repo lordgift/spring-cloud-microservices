@@ -16,6 +16,25 @@
 - [gateway-service](gateway-service) - **Netflix Zuul**, filter & router for hide services.
   - http://localhost:9999/
 
+GET http://localhost:8081/api/users
+
+POST http://localhost:8081/api/user
+```json
+{
+  "name": "lordgift",
+  "position": "admin"
+}
+```  
+
+### docker-compose.yml
+  
+adminer - database management in browser
+http://localhost:33060
+  
+MariaDB  
+http://localhost:3306
+  
+
 ## Spring Cloud Actuator
 
 Use for monitor & interact via REST endpoint. 
