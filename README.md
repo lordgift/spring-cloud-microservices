@@ -11,7 +11,7 @@
   - http://localhost:9080/middleware-service/prod
 - [middleware-service](middleware-service) - **Spring Boot Application**, provided rest api.
   - http://localhost:8080/
-- [auth-service](auth-service) - **Spring Boot Application**, provided rest api.
+- [persistence-service](persistence-service) - **Spring Boot Application**, provided rest api, business service, persistence.
   - http://localhost:8081/
 - [gateway-service](gateway-service) - **Netflix Zuul**, filter & router for hide services.
   - http://localhost:9999/

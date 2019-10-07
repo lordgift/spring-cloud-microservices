@@ -13,8 +13,8 @@ eureka:
 zuul:
   ignored-services: "*"
   routes:
-    middleware-service: /app/**
-    auth-service: /auth/**
+    middleware-service: /api/**
+    persistence-service: /biz/**
 
 #enable actuator accessible
 management:
